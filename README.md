@@ -6,7 +6,7 @@
 
 ![Alt text](images/GUI.JPG)
 
-main.py creates a user-friendly graphical interface to help users monitor and manage services running on specified ports. When users click the 'Check ports' button, the script checks if the specified ports are in use by the desired service and displays the results. Users can then select one or more ports from the list and click the 'Stop Service' button to stop the services running on the selected ports. If no port is selected or there's no active service on a selected port, the script shows an error message to guide the user. This makes it easy for non-technical users to monitor and control services running on their system.
+port_mapping_checker.py creates a user-friendly graphical interface to help users monitor and manage services running on specified ports. When users click the 'Check ports' button, the script checks if the specified ports are in use by the desired service and displays the results. Users can then select one or more ports from the list and click the 'Stop Service' button to stop the services running on the selected ports. If no port is selected or there's no active service on a selected port, the script shows an error message to guide the user. This makes it easy for non-technical users to monitor and control services running on their system.
 
 ### **Technical summary**
 1.	Import the necessary libraries (subprocess, tkinter, and tkinter.messagebox) 

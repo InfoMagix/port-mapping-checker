@@ -3,7 +3,7 @@ import tkinter as tk
 import tkinter.messagebox as messagebox
 
 # Define the list of ports to search for
-ports_to_search = ["55303", "55011", "54853", "54829","6000"]
+ports_to_search = ["55303", "55011", "54853", "54829","6000","6001"]
 
 # Define the desired service
 desired_service = "OneDrive.exe"
