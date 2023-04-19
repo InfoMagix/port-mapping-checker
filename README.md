@@ -24,3 +24,10 @@ To convert to a standalone app the following.  note that this is intended to be 
 pyinstaller --onefile port_mapping_checker.py
 ```
 
+version 2 pulls the port list and 'good' service' name from 'config.ini' which needs to be located in the same folder as the exe file.
+Makethe exe for this version like this:
+
+```
+pyinstaller --onefile --add-data "config.ini;." port_mapping_checker_v2.py
+```
+
