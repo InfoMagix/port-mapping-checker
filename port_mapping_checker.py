@@ -3,10 +3,10 @@ import tkinter as tk
 import tkinter.messagebox as messagebox
 
 # Define the list of ports to search for
-ports_to_search = ["55303", "55011", "54853", "54829","6000","6001"]
+ports_to_search = ["6000","6001"]
 
 # Define the desired service
-desired_service = "OneDrive.exe"
+desired_service = "ConnMgr.exe"
 
 def run_port_checker():
     # Clear the output text box
@@ -106,6 +106,7 @@ banner_label.pack()
 
 check_ports_button = tk.Button(root, text="Check Ports", command=run_port_checker, width=24)
 check_ports_button.pack(pady=10)
+
 
 ports_listbox = tk.Listbox(root, selectmode=tk.MULTIPLE)
 ports_listbox.pack()
